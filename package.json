@@ -1,0 +1,20 @@
+{
+  "name": "webrtc-peerjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "live-server": "live-server --no-browser --no-css-inject --https=live-server-ssl-conf.js .",
+    "server": "http-server --ssl --cert cert.pem --key key.pem .",
+    "live-server-no-ssl": "live-server --no-browser --no-css-inject .",
+    "server-no-ssl": "http-server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "guilhermerodrigues680 <guilhermerodrigues680@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "live-server": "^1.2.1"
+  }
+}
